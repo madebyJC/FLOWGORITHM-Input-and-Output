@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="JANCARLOPAREDES"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-09-16 10:11:40 pm"/>
+        <attribute name="created" value="SkFOQ0FSTE9QQVJFREVTO0RFU0tUT1AtNzQ1R1ZOMzsyMDIyLTA5LTE2OzA5OjM1OjQ2IHBtOzM0ODg="/>
+        <attribute name="edited" value="SkFOQ0FSTE9QQVJFREVTO0RFU0tUT1AtNzQ1R1ZOMzsyMDIyLTA5LTE2OzEwOjExOjQwIHBtOzE7MzU3Ng=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="minutesInput, hours, seconds" type="Integer" array="False" size=""/>
+            <output expression="&quot;Enter the minutes: &quot;" newline="True"/>
+            <input variable="minutesInput"/>
+            <assign variable="hours" expression="minutesInput / 60"/>
+            <assign variable="seconds" expression="minutesInput * 60"/>
+            <output expression="minutesInput &amp; &quot; minutes is equivalent to &quot; &amp; hours &amp; &quot; hour/s&quot;" newline="True"/>
+            <output expression="minutesInput &amp; &quot; minutes is equivalent to &quot; &amp; seconds &amp; &quot; second/s&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

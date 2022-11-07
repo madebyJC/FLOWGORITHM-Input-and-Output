@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="JANCARLOPAREDES"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-09-16 10:27:48 pm"/>
+        <attribute name="created" value="SkFOQ0FSTE9QQVJFREVTO0RFU0tUT1AtNzQ1R1ZOMzsyMDIyLTA5LTE2OzEwOjIwOjU2IHBtOzM0NzU="/>
+        <attribute name="edited" value="SkFOQ0FSTE9QQVJFREVTO0RFU0tUT1AtNzQ1R1ZOMzsyMDIyLTA5LTE2OzEwOjI3OjQ4IHBtOzE7MzU5MQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="speedInput, result" type="Integer" array="False" size=""/>
+            <output expression="&quot;Enter the speed of Eugene's legendary technique - the Ray Gun (in km/hr)&quot;" newline="True"/>
+            <input variable="speedInput"/>
+            <assign variable="result" expression="(20 / speedInput) * 60"/>
+            <output expression="&quot;It will take &quot; &amp; result &amp; &quot; minutes to hit the target using Eugene's legendary technique - the Ray Gun&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
